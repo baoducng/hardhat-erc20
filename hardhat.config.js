@@ -4,6 +4,7 @@ require("hardhat-deploy");
 require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
+require("solidity-coverage");
 
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL;
 const PRIVATE_KEY = process.env.PRIVATE_KEY;
